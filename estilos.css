@@ -1,0 +1,273 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+	box-sizing: border-box;
+}
+h1{
+	font-size: 44px;
+	text-align: center;
+	padding-top: 350px;
+}
+h2{
+	font-size: 28px;
+	text-align: center;
+	padding-top: 100px;
+}
+h3{
+	font-size: 24px;
+	text-align: center;
+	padding-top: 10%;
+}
+p{
+	font-size: 16px;
+	text-align: center;
+}
+button{
+	font-size: 14px;
+}
+/*Estilos contenedor 1*/
+.contenedor1{
+	background-color: rgba(0, 0, 0, 0.5);
+	height: 100px;
+	width: 100%;
+	float: right;
+	position: fixed;
+	top: 0px;
+}
+.contenedor1 img{
+	position: absolute;
+	padding-top: 20px;
+	padding-left: 20px;
+
+}
+.navegacion a{
+	display: block;
+	text-decoration: none;
+	color: #fff;
+	border-bottom: 1px solid #fff;
+}
+
+.Lanzador-menu{
+	text-decoration: none;
+	color: #fff;
+	padding: 6px 10px;
+	background-color: #2d211f;
+	border-radius: 3px;
+	float: right;
+	margin-top: 30px;
+	margin-right: 20px;
+}
+/*Estilos de Grid*/
+
+.grid{
+	display: grid;
+	grid-template-columns: 1fr 1fr ;
+	grid-template-rows: 300px 400px;
+}
+
+.uno{
+	
+	  background-image: url("imagenes/Fondo1.jpg");
+	  background-size: cover;
+	  height: 800px;
+	  width: 200%;
+}
+.uno h1{
+	color: #f5f0ed;
+	text-align: center;
+}
+.uno hr{
+	margin-left: 40%;
+	margin-right: 40%;
+	color: #f5f0ed;
+}
+.uno p{
+	color: #f5f0ed;
+	margin-left: 30%;
+	margin-right: 30%;
+}
+.dos{
+	grid-row: 5;
+	background-color: #d03b40;
+	height: 300px
+}
+.dos h2{
+	color: #ded6c0;
+}
+.dos p{
+	color: #ded6c0;
+}
+.tres{
+	grid-row: 5;
+	background-color:#ded6c0;
+	height: 300px;
+}
+.tres h2{
+	color: #d03b40;
+}
+.tres p{
+	color: #d03b40;
+}
+
+.cuatro{
+	grid-row: 7;
+	background-image: url(imagenes/Fondo2.jpg);
+	height: 400px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 200%;
+}
+.cuatro h2{
+	color: #f5f0ed;
+	padding-top: 10%;
+}
+.cuatro p{
+	color:#f5f0ed;
+	padding-left: 20%;
+	padding-right: 20%;
+}
+.cuatro hr{
+	margin-left: 40%;
+	margin-right: 40%;
+}
+.cuatro button{
+	width: 100%;
+	background: transparent;
+  	border: none !important;
+}
+.cuatro a{
+	margin: 20px;
+	text-decoration: none;
+	color: #f5f0ed;
+	padding: 5px;
+}
+a:hover{
+	border: 2px solid;
+}
+
+.grid2{
+	display: grid;
+	grid-template-columns: 1fr 2fr 1fr 2fr;
+	grid-template-rows: 300px;
+	background-color: #f5f0ed;
+	padding-bottom: 10%;
+	height: 570px;
+	margin: auto;
+}
+
+.grid2 img{
+	display:block;
+  margin:auto;
+	padding-top: 10%;
+}
+.grid2 p{
+	padding-left: 15%;
+	padding-right: 15%;
+}
+.grid3{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-template-rows: 300px;
+}
+.trece{
+	background-color: #ded6c0;
+}
+.trece h3{
+	color: #d03b40;
+}
+.trece p{
+	color: #d03b40;
+}
+.trece button{
+	width: 100%;
+	background: transparent;
+  	border: none !important;
+}
+.trece a{
+	margin: 20px;
+	text-decoration: none;
+	color: #d03b40;
+	padding: 5px;
+}
+a:hover{
+	border: 2px solid;
+}
+.catorce{
+	background-color: #d03b40;
+}
+.catorce h3{
+	color: #ded6c0;
+}
+.catorce p{
+	color: #ded6c0;
+}
+.catorce button{
+	width: 100%;
+	background: transparent;
+  	border: none !important;
+	padding-bottom: 10%;
+}
+.catorce a{
+	margin: 20px;
+	text-decoration: none;
+	color: #ded6c0;
+	padding: 5px;
+}
+a:hover{
+	border: 2px solid;
+}
+.quince{
+	background-color: black;
+	width: 200%;
+}
+.quince p{
+	padding-top: 3%;
+	padding-bottom: 3%;
+	color: #fff;
+}
