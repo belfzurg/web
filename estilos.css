@@ -149,10 +149,10 @@ button{
 	height: 300px;
 }
 .tres h2{
-	color: #fcc900;
+	color: #fc8600;
 }
 .tres p{
-	color: #fcc900;
+	color: #fc8600;
 }
 
 .cuatro{
@@ -219,10 +219,10 @@ a:hover{
 	background-color: #ded6c0;
 }
 .trece h3{
-	color: #fcc900;
+	color: #fc8600;
 }
 .trece p{
-	color: #fcc900;
+	color: #fc8600;
 }
 .trece button{
 	width: 100%;
@@ -232,14 +232,14 @@ a:hover{
 .trece a{
 	margin: 20px;
 	text-decoration: none;
-	color: #fcc900;
+	color: #fc8600;
 	padding: 5px;
 }
 a:hover{
 	border: 2px solid;
 }
 .catorce{
-	background-color: #fcc900;
+	background-color: #fc8600;
 }
 .catorce h3{
 	color: #ded6c0;
