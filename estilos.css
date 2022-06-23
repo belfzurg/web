@@ -134,7 +134,7 @@ button{
 }
 .dos{
 	grid-row: 5;
-	background-color: #fc8600;
+	background-color:#f1850ade;
 	height: 300px
 }
 .dos h2{
@@ -149,10 +149,10 @@ button{
 	height: 300px;
 }
 .tres h2{
-	color: #fc8600;
+	color: #f1850ade;
 }
 .tres p{
-	color: #fc8600;
+	color: #f1850ade;
 }
 
 .cuatro{
@@ -219,10 +219,10 @@ a:hover{
 	background-color: #ded6c0;
 }
 .trece h3{
-	color: #fc8600;
+	color: #f1850ade;
 }
 .trece p{
-	color: #fc8600;
+	color: #f1850ade;
 }
 .trece button{
 	width: 100%;
@@ -232,7 +232,7 @@ a:hover{
 .trece a{
 	margin: 20px;
 	text-decoration: none;
-	color: #fc8600;
+	color: #fc8600eb;
 	padding: 5px;
 }
 a:hover{
